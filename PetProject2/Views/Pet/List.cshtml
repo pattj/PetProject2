@@ -1,0 +1,9 @@
+﻿@model IEnumerable<Pet>
+@foreach (var p in Model)
+{
+    <div>
+        <h3>@p.pet_name</h3>
+        <h3>@p.pet_photo</h3>
+        <h4>@p.pet_gender</h4>
+    </div>
+}
